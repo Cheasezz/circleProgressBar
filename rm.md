@@ -1,3 +1,3 @@
-#Circle Brogress Bar
+#Circle Progress Bar
 
 technical task for Leha
