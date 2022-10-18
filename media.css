@@ -1,7 +1,7 @@
 @media screen and (orientation: landscape) {
 	.section {
 		width: 23rem;
-		height: 17rem;
+		height: 14rem;
 	}
 }
 
@@ -9,6 +9,6 @@
 	.section {
 		flex-direction: column;
 		height: 23rem;
-		width: 17rem;
+		width: 14rem;
 	}
 }
