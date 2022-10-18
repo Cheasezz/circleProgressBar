@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="media.css">
+    <script src="app.js" defer></script>
+    <title>Circle Progress Bar</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section">
+				<h1 class="section-title">Progress</h1>
+        <div class="progress-bar" data-percent="32">
+          <div class="half leftfield"></div>
+          <div class="half rightfield"></div>
+        </div>
+
+        <div class="tools">
+          <div class="tools__item">
+            <input type="number" class="setValue" />
+            <p class="tools__item-title">Value</p>
+          </div>
+          <div class="tools__item">
+            <input type="checkbox" id="switchAnimate" class="checkbox" />
+            <label for="switchAnimate" class="toggle"></label>
+            <p class="tools__item-title">Animate</p>
+          </div>
+          <div class="tools__item">
+            <input type="checkbox" id="switchHide" class="checkbox" />
+            <label for="switchHide" class="toggle"></label>
+            <p class="tools__item-title">Hide</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
