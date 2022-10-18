@@ -27,13 +27,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
+	padding: 1rem;
 }
 
 .section-title {
 	position: absolute;
 	margin: 0;
-	left: .2rem;
-	top: .2rem;
+	left: 1rem;
+	top: 1rem;
 	font-size: .8rem;
 }
 
